@@ -1,6 +1,9 @@
 # File di autosalvataggio dell'editor GDevelop
 *.json.autosave
 
+# Backup locali creati durante le correzioni
+*.bak-hitbox-*
+
 # Sistema operativo
 Thumbs.db
 Desktop.ini
