@@ -1,0 +1,7 @@
+# File di autosalvataggio dell'editor GDevelop
+*.json.autosave
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
