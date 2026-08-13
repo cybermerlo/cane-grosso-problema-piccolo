@@ -152,8 +152,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "Touch controls", 0, 0, 0);
 }
-{gdjs.evtTools.sound.playMusic(runtimeScene, "whatsapp-2026-04-16.mp3", false, 100, 1);
-}
 
 { //Subevents
 gdjs.LevelCode.eventsList0(runtimeScene);} //End of subevents
@@ -196,7 +194,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDJumpButtonObjects2.length;i<l;++i) {
 gdjs.LevelCode.GDJumpButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15597964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16750540);
 }
 }
 if (isConditionTrue_0) {
@@ -226,7 +224,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDJumpButtonObjects1.length;i<l;++i) {
 gdjs.LevelCode.GDJumpButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15599252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16751388);
 }
 }
 if (isConditionTrue_0) {
@@ -286,7 +284,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerObjects3.length;i<l;++i) {
 gdjs.LevelCode.GDPlayerObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15600548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16753308);
 }
 }
 if (isConditionTrue_0) {
@@ -306,7 +304,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__Player__IsSteppingOnFloor.func(runtimeScene, gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPlayerObjects2Objects, "PlatformerObject", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15597092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16754028);
 }
 }
 if (isConditionTrue_0) {
@@ -786,7 +784,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12415036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16776436);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("GameOverDialog"), gdjs.LevelCode.GDGameOverDialogObjects2);
@@ -864,7 +862,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPlayerObjects2Objects, gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPortalObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19561884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16773492);
 }
 }
 if (isConditionTrue_0) {
@@ -975,6 +973,8 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "crickets.aac", true, 30, 1);
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "door.aac", 0, true, 100, 1);
+}
+{gdjs.evtTools.sound.playMusic(runtimeScene, "whatsapp-2026-04-16.mp3", false, 100, 1);
 }
 }
 
