@@ -926,6 +926,16 @@
         "name": "Idle3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "whatsapp-2026-04-16.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "whatsapp-2026-04-16.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -965,7 +975,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9777906207403424,
+        "zoomFactor": 0.6146148664418004,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5413,6 +5423,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
+          "persistentUuid": "d76728e6-55ef-4e8b-a026-1c4871a8c5fe",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7439,6 +7450,18 @@
                         "yes",
                         "100",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "whatsapp-2026-04-16.mp3",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ]
