@@ -152,6 +152,8 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "Touch controls", 0, 0, 0);
 }
+{gdjs.evtTools.sound.playMusic(runtimeScene, "whatsapp-2026-04-16.mp3", false, 100, 1);
+}
 
 { //Subevents
 gdjs.LevelCode.eventsList0(runtimeScene);} //End of subevents
